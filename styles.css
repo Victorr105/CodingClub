@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: o;
+}
+
+h1{
+    color: teal;
+}
+
+header{
+    background-color: #0b2e4f;
+}
+
+#site-title{
+    text-align: center;
+    /* background-color: rgb(235, 156, 9); */
+}
+
+.highlight{
+    background-color: yellow;
+}
+.card{
+    border: 2px solid teal;
+    padding:16px;
+    margin-top:8px ;
+}
+
+.button{
+    background-color: teal;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* nav */
+nav ul{
+    padding:0;
+    list-style: none;
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 12px;
+}
+
+nav ul li a{
+    text-decoration:none;
+}
+
+/* cards */
+.card{
+    border-radius: 10px;
+    min-width: 500px;
+    min-height: 180px;
+}
+.card-row{
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+
+}
